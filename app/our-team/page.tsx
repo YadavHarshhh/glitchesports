@@ -70,9 +70,9 @@ export default function OurTeamPage() {
                 <TeamMemberCard
                   name="Chaitany Gupta"
                   role="Director of Operations"
-                  imageSrc="/placeholder.svg?height=400&width=400"
-                  instagram="https://instagram.com"
-                  linkedin="https://linkedin.com"
+                  imageSrc="/mao.jpeg?height=400&width=400"
+                  instagram="https://www.instagram.com/chaitany_1501/?igsh=cjY2YmJ4MWc2Z295#"
+                  linkedin="https://www.linkedin.com/in/chaitany-gupta-209436365/"
                 />
                 <TeamMemberCard
                   name="Safwaan Siddiqui"
