@@ -10,7 +10,7 @@ export function SocialLinks({ className }: SocialLinksProps) {
   return (
     <div className={cn("flex items-center gap-4", className)}>
       <Link
-        href="https://instagram.com"
+        href="https://instagram.com/glitchmuj"
         target="_blank"
         rel="noopener noreferrer"
         className="text-muted-foreground hover:text-primary transition-colors"
@@ -19,16 +19,7 @@ export function SocialLinks({ className }: SocialLinksProps) {
         <span className="sr-only">Instagram</span>
       </Link>
       <Link
-        href="https://twitter.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-muted-foreground hover:text-primary transition-colors"
-      >
-        <Twitter className="h-5 w-5" />
-        <span className="sr-only">Twitter</span>
-      </Link>
-      <Link
-        href="https://discord.com"
+        href="https://discord.gg/BZA5SrJ6fR"
         target="_blank"
         rel="noopener noreferrer"
         className="text-muted-foreground hover:text-primary transition-colors"
@@ -37,7 +28,7 @@ export function SocialLinks({ className }: SocialLinksProps) {
         <span className="sr-only">Discord</span>
       </Link>
       <Link
-        href="https://youtube.com"
+        href="https://www.youtube.com/@glitchesportssociety"
         target="_blank"
         rel="noopener noreferrer"
         className="text-muted-foreground hover:text-primary transition-colors"
@@ -45,7 +36,7 @@ export function SocialLinks({ className }: SocialLinksProps) {
         <Youtube className="h-5 w-5" />
         <span className="sr-only">YouTube</span>
       </Link>
-      <Link
+      {/*<Link
         href="https://twitch.tv"
         target="_blank"
         rel="noopener noreferrer"
@@ -62,7 +53,7 @@ export function SocialLinks({ className }: SocialLinksProps) {
       >
         <Facebook className="h-5 w-5" />
         <span className="sr-only">Facebook</span>
-      </Link>
+      </Link>*/}
     </div>
   )
 }

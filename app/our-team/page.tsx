@@ -33,7 +33,7 @@ export default function OurTeamPage() {
             <TabsList className="grid w-full grid-cols-1 md:grid-cols-3 mb-8">
               <TabsTrigger value="core">Executive Core Committee</TabsTrigger>
               <TabsTrigger value="domains">Core Committee</TabsTrigger>
-              <TabsTrigger value="gameheads">Organizing Committee</TabsTrigger>
+              <TabsTrigger value="gameheads">Faculty Coordinator</TabsTrigger>
             </TabsList>
 
             {/* Core Committee */}
@@ -63,9 +63,9 @@ export default function OurTeamPage() {
                 <TeamMemberCard
                   name="Keshav Raj"
                   role="Treasurer"
-                  imageSrc="/placeholder.svg?height=400&width=400"
-                  instagram="https://instagram.com"
-                  linkedin="https://linkedin.com"
+                  imageSrc="/keshav.jpg?height=400&width=400"
+                  instagram="https://instagram.com/eshu_av"
+                  linkedin="https://www.linkedin.com/in/keshav-raj-ba0b7922a/"
                 />
                 <TeamMemberCard
                   name="Chaitany Gupta"
@@ -84,9 +84,9 @@ export default function OurTeamPage() {
                 <TeamMemberCard
                   name="Abhinav Singh"
                   role="Director of Production"
-                  imageSrc="/placeholder.svg?height=400&width=400"
+                  imageSrc="/abhinav.jpeg?height=400&width=400"
                   instagram="https://instagram.com"
-                  linkedin="https://linkedin.com"
+                  linkedin="https://www.linkedin.com/in/abhinav-singh-b27211340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 />
               </div>
             </TabsContent>
@@ -107,9 +107,9 @@ export default function OurTeamPage() {
                     <TeamMemberCard
                       name="Priyaansh Sapru"
                       role="Head of Operations"
-                      imageSrc="/placeholder.svg?height=400&width=400"
-                      instagram="https://instagram.com"
-                      linkedin="https://linkedin.com"
+                      imageSrc="/priyaansh.jpeg?height=400&width=400"
+                      instagram="https://www.instagram.com/_.priyaanshsapru._?igsh=MW92eGpzbDczeGpjdw=="
+                      linkedin="https://www.linkedin.com/in/priyaansh-sapru-b44539363/"
                     />
                     <TeamMemberCard
                       name="Arham Jain"
@@ -156,16 +156,16 @@ export default function OurTeamPage() {
                      <TeamMemberCard
                       name="Tejas Sinha"
                       role="Head of Graphic Design"
-                      imageSrc="/placeholder.svg?height=400&width=400"
-                      instagram="https://instagram.com"
-                      linkedin="https://linkedin.com"
+                      imageSrc="tejas.jpeg?height=400&width=400"
+                      instagram="https://www.instagram.com/sad.n_young/"
+                      linkedin="https://www.linkedin.com/in/tejas-sinha-a667282a7/"
                     />
                     <TeamMemberCard
                       name="Darsh Sinha"
                       role="Head of Graphic Design"
-                      imageSrc="/placeholder.svg?height=400&width=400"
-                      instagram="https://instagram.com"
-                      linkedin="https://linkedin.com"
+                      imageSrc="/darsh.jpeg?height=400&width=400"
+                      instagram="https://www.instagram.com/go2sleepdarsh?igsh=MWc0bTh4OXFmOXQ4MA%3D%3D&utm_source=qr"
+                      linkedin="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav"
                     />
                     <TeamMemberCard
                       name="Pratyush Srivastava"
@@ -191,9 +191,9 @@ export default function OurTeamPage() {
                     <TeamMemberCard
                       name="Sarthak Pal"
                       role="Head of eSports"
-                      imageSrc="/placeholder.svg?height=400&width=400"
-                      instagram="https://instagram.com"
-                      linkedin="https://linkedin.com"
+                      imageSrc="/sarthak.jpeg?height=400&width=400"
+                      instagram="https://www.instagram.com/_sarthak.pal_?igsh=ZDZvdm44dnR0a3Q1"
+                      linkedin="https://www.linkedin.com/in/sarthak-pal-969600363?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                     />
                     <TeamMemberCard
                       name="Jayesh Sarode"
@@ -208,45 +208,20 @@ export default function OurTeamPage() {
             </TabsContent>
 
             {/* Game Heads */}
-            {/*<TabsContent value="gameheads">
+            <TabsContent value="gameheads">
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
                 <TeamMemberCard
-                  name="Ryan Park"
-                  role="Valorant Head"
-                  imageSrc="/placeholder.svg?height=400&width=400"
-                  instagram="https://instagram.com"
-                  linkedin="https://linkedin.com"
+                  name="Dr. Arvind Dhaka"
+                  role="Faculty Coordinator"
+                  imageSrc="/arvindsir.jpg?height=400&width=400"
                 />
                 <TeamMemberCard
-                  name="Aiden Kumar"
-                  role="BGMI Head"
-                  imageSrc="/placeholder.svg?height=400&width=400"
-                  instagram="https://instagram.com"
-                  linkedin="https://linkedin.com"
-                />
-                <TeamMemberCard
-                  name="Zoe Chen"
-                  role="CSGO Head"
-                  imageSrc="/placeholder.svg?height=400&width=400"
-                  instagram="https://instagram.com"
-                  linkedin="https://linkedin.com"
-                />
-                <TeamMemberCard
-                  name="Mason Lee"
-                  role="F1 Head"
-                  imageSrc="/placeholder.svg?height=400&width=400"
-                  instagram="https://instagram.com"
-                  linkedin="https://linkedin.com"
-                />
-                <TeamMemberCard
-                  name="Isabella Patel"
-                  role="Clash of Clans Head"
-                  imageSrc="/placeholder.svg?height=400&width=400"
-                  instagram="https://instagram.com"
-                  linkedin="https://linkedin.com"
+                  name="Dr. Arpit Kumar Sharma"
+                  role="Faculty Coordinator"
+                  imageSrc="/arpitsir.jpg?height=400&width=400"
                 />
               </div>
-            </TabsContent>*/}
+            </TabsContent>
           </Tabs>
         </div>
       </section>
@@ -295,13 +270,7 @@ function TeamMemberCard({ name, role, imageSrc, instagram, linkedin }: TeamMembe
             <span className="sr-only">LinkedIn</span>
           </Link>
         )}
-        <Link
-          href={`mailto:${name.toLowerCase().replace(" ", ".")}@example.com`}
-          className="text-muted-foreground hover:text-primary"
-        >
-          <Mail className="h-5 w-5" />
-          <span className="sr-only">Email</span>
-        </Link>
+
       </CardFooter>
     </Card>
   )
