@@ -75,19 +75,90 @@ interface GalleryGridProps {
 
 function GalleryGrid({ filter }: GalleryGridProps) {
   // In a real implementation, you would filter based on the filter prop
+  const imageFiles = [
+    "IMG-20250221-WA0063.jpg",
+    "IMG-20250221-WA0059(1).jpg",
+    "IMG-20250221-WA0069.jpg",
+    "Oneiros x Glitch- Clutch – Where Skills Meet Thrills. Are You Game (1).jpg",
+    "IMG-20250411-WA0043.jpg",
+    "rezumeevents.jpg",
+    "IMG-20250411-WA0042.jpg",
+    "Oneiros x Glitch- Clutch – Where Skills Meet Thrills. Are You Game.jpg",
+    "homemain.jpg",
+    "lan1ot.jpeg",
+    "DSC08977.JPG",
+    "DSC08982.JPG",
+    "DSC09025.JPG",
+    "DSC09063.JPG",
+    "DSC09085.JPG",
+    "DSC09128.JPG",
+    "DSC09136.JPG",
+    "DSC09154.JPG",
+    "DSC09217.JPG",
+    "IMG_20250413_005706.jpg",
+    "IMG_20250413_005947.jpg",
+    "IMG_20250413_010142.jpg",
+    "IMG_20250413_010440.jpg",
+    "DSC09292.JPG",
+    "DSC09293.JPG",
+    "DSC09324.JPG",
+    "DSC09350.JPG",
+    "DSC09372.JPG",
+    "DSC09404.JPG",
+    "IMG_20250414_034044.jpg",
+    "IMG_20250414_035810.jpg",
+    "IMG_20250414_040356.jpg",
+    "IMG_20250414_040856.jpg",
+    "IMG_5624.png",
+    "WhatsApp Image 2023-11-08 at 10.19.32 PM (2).jpeg",
+    "IMG-20240529-WA0035.jpg",
+    "abtus.jpg",
+    "IMG_2702.JPG",
+    "IMG_2709.JPG",
+    "pitstn.jpg",
+    "clutchmainpage.jpg",
+    "IMG_6565-Enhanced-NR.jpg",
+    "clutch1.jpg",
+    "clutch4.jpg",
+    "clutch11.jpg",
+    "clutch3.jpg",
+    "clutch.jpg",
+    "clutch8.jpg",
+    "clutch10.jpg",
+    "clutch2.jpg",
+    "clutch6.jpg",
+    "clutch5.jpg",
+    "clutch7.jpg",
+    "clutch9.jpg",
+    "boombanda6.jpg",
+    "boompanda.jpg",
+    "boompanda5.jpg",
+    "boompanda4.jpg",
+    "boompanda3.jpg",
+    "boompanda2.jpg",
+    "pitstation.jpg",
+    "pitstation2.png",
+    "gamedev.jpg",
+    "gamedev4.jpg",
+    "gamedev3.jpg",
+    "gamedev2.jpg",
+    "gamedev1.jpg",
+    "gamedev5.jpg",
+    "lenovo1.jpg"
+  ];
+
   return (
     <div className="space-y-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {Array.from({ length: 12 }).map((_, i) => (
+        {imageFiles.map((imageName, i) => (
           <GalleryItem
             key={i}
             type={i % 3 === 0 ? "video" : "image"}
-            src={`/placeholder.svg?height=600&width=600&text=Gallery${i + 1}`}
+            src={`/${imageName}`}
             alt={`Gallery item ${i + 1}`}
           />
         ))}
       </div>
-
       {/* Pagination */}
       <div className="flex justify-center items-center space-x-2 pt-4">
         <Button variant="outline" size="icon">
@@ -107,7 +178,7 @@ function GalleryGrid({ filter }: GalleryGridProps) {
         </Button>
       </div>
     </div>
-  )
+  );
 }
 
 interface GalleryItemProps {
