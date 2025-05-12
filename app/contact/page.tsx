@@ -23,7 +23,7 @@ export default function ContactPage() {
           <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background/90" />
         </div>
         <div className="container relative z-10 text-center px-4">
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-white">Contact Us</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-white">Get in Touch</h1>
           <p className="mt-4 max-w-[700px] mx-auto text-lg text-muted-foreground">
             Get in touch with the Glitch! eSports Society team
           </p>

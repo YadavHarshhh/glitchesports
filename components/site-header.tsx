@@ -17,9 +17,9 @@ export function SiteHeader() {
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
     { href: "/events", label: "Events" },
-    { href: "/our-team", label: "Our Team" },
+    { href: "/our-team", label: "The Team" },
     { href: "/gallery", label: "Gallery" },
-    { href: "/sponsors", label: "Sponsors" },
+    { href: "/sponsors", label: "Collaborations" },
     { href: "/blog", label: "Blog" },
     { href: "/contact", label: "Contact" },
   ]

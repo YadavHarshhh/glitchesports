@@ -10,7 +10,7 @@ export default function SponsorsPage() {
       <section className="relative w-full h-[40vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=800&width=1920"
+            src="/spon.jpg?height=800&width=1920"
             alt="Glitch! Sponsors"
             fill
             className="object-cover brightness-50"
@@ -34,43 +34,43 @@ export default function SponsorsPage() {
               name="BoomPanda"
               /*category="Title Sponsor"*/
               description="TechCorp has been our title sponsor for the past 2 years, providing essential support for our flagship events and tournaments."
-              logoSrc="/placeholder-logo.svg"
+              logoSrc="/boom.png"
               website="https://example.com"
             />
             <SponsorCard
               name="Lets Game Now"
               /*category="Gaming Partner"*/
               description="GameHub provides gaming equipment and peripherals for our tournaments and training sessions."
-              logoSrc="/placeholder-logo.svg"
-              website="https://example.com"
+              logoSrc="/lgn.png"
+              website="https://www.letsgamenow.com/home"
             />
             <SponsorCard
               name="The Esports Club"
               /*category="Streaming Partner"*/
               description="StreamX powers our live broadcasts and provides technical support for our online events."
-              logoSrc="/placeholder-logo.svg"
-              website="https://example.com"
+              logoSrc="/tec.png"
+              website="https://theesports.club/"
             />
             <SponsorCard
               name="Lenovo Legion"
               /*category="Beverage Partner"*/
               description="EnergyDrink keeps our players and attendees refreshed during our long tournament days."
-              logoSrc="/placeholder-logo.svg"
-              website="https://example.com"
+              logoSrc="/lenovo.svg"
+              website="https://www.lenovo.com/in/en/legion/?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOoqP0wmzwKDZ9E9OaVaJowuDY-1KvarEZKn_9yNP1v7dp6oVmBZy"
             />
             <SponsorCard
               name="Global Reach"
               category="Educational Partner"
               description="TechUniversity provides workshops and educational resources for our members interested in game development."
-              logoSrc="/placeholder-logo.svg"
-              website="https://example.com"
+              logoSrc="/gr.png"
+              website="https://www.globalreach.in/"
             />
             <SponsorCard
               name="Vrkaa"
               category="Merchandise Partner"
               description="GamerGear supplies our team jerseys and merchandise for our events and community."
-              logoSrc="/placeholder-logo.svg"
-              website="https://example.com"
+              logoSrc="/vrkaa.avif"
+              website="https://vrkaa.com/"
             />
           </div>
         </div>

@@ -56,9 +56,9 @@ export default function OurTeamPage() {
                 <TeamMemberCard
                   name="Ria Aggarwal"
                   role="Managing Director"
-                  imageSrc="/placeholder.svg?height=400&width=400"
-                  instagram="https://instagram.com"
-                  linkedin="https://linkedin.com"
+                  imageSrc="/ria.jpeg?height=400&width=400"
+                  instagram="https://www.instagram.com/riaxn.ag?utm_source=qr&igsh=MWw4Mjhsbmp3bXUwNQ=="
+                  linkedin="https://www.linkedin.com/in/ria-aggarwal-72548730a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 />
                 <TeamMemberCard
                   name="Keshav Raj"
@@ -77,9 +77,9 @@ export default function OurTeamPage() {
                 <TeamMemberCard
                   name="Safwaan Siddiqui"
                   role="Director of Events"
-                  imageSrc="/placeholder.svg?height=400&width=400"
-                  instagram="https://instagram.com"
-                  linkedin="https://linkedin.com"
+                  imageSrc="/safwaan.jpeg?height=400&width=400"
+                  instagram="https://www.instagram.com/sfxn.exe?igsh=MWxqc21uMTNpaHRrcw%3D%3D&utm_source=qr"
+                  linkedin="https://www.linkedin.com/in/safwaan-siddiqui-8906a531b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 />
                 <TeamMemberCard
                   name="Abhinav Singh"
@@ -114,9 +114,9 @@ export default function OurTeamPage() {
                     <TeamMemberCard
                       name="Arham Jain"
                       role="Head of Events"
-                      imageSrc="/placeholder.svg?height=400&width=400"
-                      instagram="https://instagram.com"
-                      linkedin="https://linkedin.com"
+                      imageSrc="/arham.JPG?height=400&width=400"
+                      instagram="https://www.instagram.com/arham_jain10?igsh=Ymhwa3BoNm41d2V4&utm_source=qr"
+                      linkedin="https://www.linkedin.com/in/jainarham10?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                     />
                      <TeamMemberCard
                       name="Arpit Akhoury"
@@ -170,9 +170,9 @@ export default function OurTeamPage() {
                     <TeamMemberCard
                       name="Pratyush Srivastava"
                       role="Head of Media and Coverage"
-                      imageSrc="/placeholder.svg?height=400&width=400"
-                      instagram="https://instagram.com"
-                      linkedin="https://linkedin.com"
+                      imageSrc="/pratyush.jpeg?height=400&width=400"
+                      instagram="https://www.instagram.com/tfpraty.ushh?igsh=aTJmbnV4d25qeXJs"
+                      linkedin="https://in.linkedin.com/in/pratyush-srivastava-42005b2ba"
                     />
                     <TeamMemberCard
                       name="Raunit Chatterjee"
