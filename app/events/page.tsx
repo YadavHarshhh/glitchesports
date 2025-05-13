@@ -23,7 +23,8 @@ export default function EventsPage() {
         <div className="container relative z-10 text-center px-4">
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-white">Events</h1>
           <p className="mt-4 max-w-[700px] mx-auto text-lg text-muted-foreground">
-            Discover our flagship tournaments, workshops, and gaming sessions
+          Step into the world of Glitch
+          Where flagship tournaments, immersive workshops, and high-octane gaming sessions redefine campus esports.
           </p>
         </div>
       </section>
@@ -35,7 +36,7 @@ export default function EventsPage() {
             <TabsList className="grid w-full grid-cols-1 sm:grid-cols-3 mb-8">
               <TabsTrigger value="flagship">Flagship Tournaments</TabsTrigger>
               <TabsTrigger value="workshops">Workshops & Sessions</TabsTrigger>
-              <TabsTrigger value="lan-online">LAN vs Online Events</TabsTrigger>
+              <TabsTrigger value="lan-online">Battle Zones</TabsTrigger>
             </TabsList>
 
             {/* Flagship Tournaments */}
@@ -74,9 +75,7 @@ export default function EventsPage() {
                         <span>500+ Participants</span>
                       </div>
                       <p className="mt-4">
-                        REZUME is our flagship multi-day gaming festival featuring tournaments across all major game
-                        titles, workshops, exhibitions, and industry speakers. The event attracts participants from
-                        colleges across India.
+                      MUJ’s annual flagship gaming fest featuring LAN battles, 20+ game titles, all platforms (mobile/PC/console), creator meetups, workshops, and more — with participants from colleges across India.
                       </p>
                     </CardContent>
                   </div>
@@ -97,7 +96,7 @@ export default function EventsPage() {
                     <CardHeader className="p-0 pb-4">
                       <div className="flex items-center justify-between">
                         <Badge className="mb-2">Annual</Badge>
-                        <Badge variant="outline">Online</Badge>
+                        <Badge variant="outline">MUJ Campus</Badge>
                       </div>
                       <CardTitle className="text-2xl md:text-3xl">CLUTCH</CardTitle>
                       <CardDescription>Online/Offline nationwide tournament series</CardDescription>
@@ -113,10 +112,10 @@ export default function EventsPage() {
                       </div>
                       <div className="flex items-center text-muted-foreground">
                         <Users className="mr-2 h-4 w-4" />
-                        <span>300+ Teams</span>
+                        <span>300+ Participants</span>
                       </div>
                       <p className="mt-4">
-                        TBF.
+                      Thrilling part of ONEIROS, MUJ’s annual cultural fest, featuring BGMI, Valorant, Tekken, and FIFA LAN tournaments.
                       </p>
                     </CardContent>
                   </div>
@@ -136,7 +135,7 @@ export default function EventsPage() {
                   <div className="p-6">
                     <CardHeader className="p-0 pb-4">
                       <div className="flex items-center justify-between">
-                        <Badge className="mb-2">TBF</Badge>
+                        <Badge className="mb-2">Annual</Badge>
                         <Badge variant="outline">OFFLINE LAN</Badge>
                       </div>
                       <CardTitle className="text-2xl md:text-3xl">PIT STATION</CardTitle>
@@ -145,7 +144,7 @@ export default function EventsPage() {
                     <CardContent className="p-0 pb-4 space-y-2">
                       <div className="flex items-center text-muted-foreground">
                         <Calendar className="mr-2 h-4 w-4" />
-                        <span>Quarterly</span>
+                        <span>September</span>
                       </div>
                       <div className="flex items-center text-muted-foreground">
                         <MapPin className="mr-2 h-4 w-4" />
@@ -153,12 +152,10 @@ export default function EventsPage() {
                       </div>
                       <div className="flex items-center text-muted-foreground">
                         <Users className="mr-2 h-4 w-4" />
-                        <span>16 Teams per Game</span>
+                        <span>100+ Participants</span>
                       </div>
                       <p className="mt-4">
-                        The CLUTCH Series features intense LAN competitions for CSGO and Valorant with a focus on high
-                        production value and competitive integrity. These events are perfect for experiencing the thrill
-                        of in-person esports.
+                      FIFA and F1 LAN event, featuring only high-end consoles — imagine the scale and the thrill of competitive gaming at its best!
                       </p>
                     </CardContent>
                   </div>
@@ -170,7 +167,7 @@ export default function EventsPage() {
                 <div className="md:grid md:grid-cols-2">
                   <div className="relative h-64 md:h-auto">
                     <Image
-                      src="/placeholder.svg?height=600&width=800"
+                      src="/clutch5.jpg?height=600&width=800"
                       alt="GameFest Tournament"
                       fill
                       className="object-cover"
@@ -183,12 +180,12 @@ export default function EventsPage() {
                         <Badge variant="outline">Hybrid</Badge>
                       </div>
                       <CardTitle className="text-2xl md:text-3xl">GAMERS ASYLUM</CardTitle>
-                      <CardDescription>Celebration of gaming culture</CardDescription>
+                      <CardDescription> Pan-India</CardDescription>
                     </CardHeader>
                     <CardContent className="p-0 pb-4 space-y-2">
                       <div className="flex items-center text-muted-foreground">
                         <Calendar className="mr-2 h-4 w-4" />
-                        <span>September (Every Year)</span>
+                        <span>September</span>
                       </div>
                       <div className="flex items-center text-muted-foreground">
                         <MapPin className="mr-2 h-4 w-4" />
@@ -196,11 +193,10 @@ export default function EventsPage() {
                       </div>
                       <div className="flex items-center text-muted-foreground">
                         <Users className="mr-2 h-4 w-4" />
-                        <span>400+ Participants</span>
+                        <span>500+ Participants</span>
                       </div>
                       <p className="mt-4">
-                        GameFest combines competitive tournaments with casual gaming, cosplay competitions, and gaming
-                        industry panels. This event celebrates gaming culture in all its forms.
+                      Exhilarating Pan-India inter-college Valorant tournament, bringing together top college teams from across the country. Featuring high-end casting, the event promises an immersive viewing experience, with top-tier commentary and expert analysis. Players will battle it out for glory and a massive prize pool, making it a must-watch for all Valorant enthusiasts!
                       </p>
                     </CardContent>
                   </div>
@@ -211,7 +207,7 @@ export default function EventsPage() {
                 <div className="md:grid md:grid-cols-2">
                   <div className="relative h-64 md:h-auto">
                     <Image
-                      src="/placeholder.svg?height=600&width=800"
+                      src="/abtus.jpg?height=600&width=800"
                       alt="Freshman Cup"
                       fill
                       className="object-cover"
@@ -221,15 +217,15 @@ export default function EventsPage() {
                     <CardHeader className="p-0 pb-4">
                       <div className="flex items-center justify-between">
                         <Badge className="mb-2">Annual</Badge>
-                        <Badge variant="outline">LAN</Badge>
+                        <Badge variant="outline">Offline</Badge>
                       </div>
-                      <CardTitle className="text-2xl md:text-3xl">Freshman Cup</CardTitle>
-                      <CardDescription>Tournament for first-year students</CardDescription>
+                      <CardTitle className="text-2xl md:text-3xl">HOMEBASE</CardTitle>
+                      <CardDescription>Retro-themed event for first-year students</CardDescription>
                     </CardHeader>
                     <CardContent className="p-0 pb-4 space-y-2">
                       <div className="flex items-center text-muted-foreground">
                         <Calendar className="mr-2 h-4 w-4" />
-                        <span>October (Every Year)</span>
+                        <span>February</span>
                       </div>
                       <div className="flex items-center text-muted-foreground">
                         <MapPin className="mr-2 h-4 w-4" />
@@ -237,11 +233,10 @@ export default function EventsPage() {
                       </div>
                       <div className="flex items-center text-muted-foreground">
                         <Users className="mr-2 h-4 w-4" />
-                        <span>150+ Participants</span>
+                        <span>300+ Participants</span>
                       </div>
                       <p className="mt-4">
-                        The Freshman Cup is exclusively for first-year students, providing them with a platform to
-                        showcase their gaming skills and integrate into the campus gaming community.
+                      Retro-themed event featuring classic old games with a free-to-play setup, perfect to relive the old memories.
                       </p>
                     </CardContent>
                   </div>
@@ -271,7 +266,7 @@ export default function EventsPage() {
                 <Card>
                   <CardHeader>
                     <CardTitle>ENTREPRENEURSHIP SEMINAR</CardTitle>
-                    <CardDescription>Learn to create your own games</CardDescription>
+                    <CardDescription></CardDescription>
                   </CardHeader>
                   <CardContent>
                     <div className="relative w-full aspect-video mb-4">
@@ -283,23 +278,21 @@ export default function EventsPage() {
                       />
                     </div>
                     <p>
-                      Our game development workshops cover everything from basic concepts to advanced techniques using
-                      Unity and Unreal Engine. These hands-on sessions are led by experienced developers and club
-                      members.
+                    Learn and lead the way to success with insights from industry experts in both business and gaming. Last year, we had the privilege of hosting the CEO of Boom Panda, who shared invaluable strategies and experiences, merging the worlds of entrepreneurship and gaming to inspire the next generation of gaming industry leaders.
                     </p>
                   </CardContent>
                   <CardFooter>
                     <div className="flex items-center text-muted-foreground">
                       <Calendar className="mr-2 h-4 w-4" />
-                      <span>Monthly</span>
+                      <span>February</span>
                     </div>
                   </CardFooter>
                 </Card>
 
                 <Card>
                   <CardHeader>
-                    <CardTitle>GAME DEVELOPMENT WORKSHOP</CardTitle>
-                    <CardDescription>Learn to create your own games</CardDescription>
+                    <CardTitle>Code and Quest</CardTitle>
+                    <CardDescription></CardDescription>
                   </CardHeader>
                   <CardContent>
                     <div className="relative w-full aspect-video mb-4">
@@ -310,15 +303,13 @@ export default function EventsPage() {
                         className="object-cover rounded-md"/>
                     </div>
                     <p>
-                    Our game development workshops cover everything from basic concepts to advanced techniques using
-                      Unity and Unreal Engine. These hands-on sessions are led by experienced developers and club
-                      members.
+                    A game development workshop led by our talented alumnis, where they not only teach you how to create games but also share their journeys to success in the gaming industry. This workshop is organized in collaboration with the Directorate of Alumni Relations, offering invaluable insights and guidance for aspiring game developers.
                     </p>
                   </CardContent>
                   <CardFooter>
                     <div className="flex items-center text-muted-foreground">
                       <Calendar className="mr-2 h-4 w-4" />
-                      <span>Bi-Monthly</span>
+                      <span>November 2023</span>
                     </div>
                   </CardFooter>
                 </Card>
@@ -349,39 +340,42 @@ export default function EventsPage() {
                 <div className="space-y-6">
                   <div className="relative w-full aspect-video">
                     <Image
-                      src="/placeholder.svg?height=400&width=600"
+                      src="/clutch11.jpg?height=400&width=600"
                       alt="LAN Event"
                       fill
                       className="object-cover rounded-lg"
                     />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold mb-4">LAN Events</h3>
+                    <h3 className="text-2xl font-bold mb-4">Command Center → The Arena Experience Emphasizes the intense, immersive, in-person gameplay environment.</h3>
                     <ul className="space-y-2">
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>In-person experience with immediate reactions</span>
+                        <span>Real-time reactions, real-world tension – feel every moment with zero lag.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Standardized equipment for fair competition</span>
+                        <span>Standardized pro-level setups to ensure fair, balanced gameplay.
+                        </span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Networking opportunities with fellow gamers</span>
+                        <span>Forge real connections with fellow gamers, alumni, and industry guests.
+                        </span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Higher production value with live audience</span>
+                        <span>Live-stage atmosphere with shoutcasting, crowds, and lights.
+                        </span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Limited to MUJ and nearby colleges</span>
+                        <span>Local legend vibes – open to MUJ and nearby institutions.</span>
                       </li>
                     </ul>
                     <div className="mt-4">
                       <h4 className="font-semibold mb-2">Our LAN Events:</h4>
-                      <p>REZUME, CLUTCH Series, Intra-MUJ Championships, Freshman Cup, GameFest</p>
+                      <p>REZUME, CLUTCH , Pit Station , Gamers Asylum , Homebase</p>
                     </div>
                   </div>
                 </div>
@@ -389,39 +383,44 @@ export default function EventsPage() {
                 <div className="space-y-6">
                   <div className="relative w-full aspect-video">
                     <Image
-                      src="/placeholder.svg?height=400&width=600"
+                      src="/homemain.jpg?height=400&width=600"
                       alt="Online Event"
                       fill
                       className="object-cover rounded-lg"
                     />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold mb-4">Online Events</h3>
+                    <h3 className="text-2xl font-bold mb-4">Digital Arena → The Virtual Showdown
+                    Highlights the expansive, flexible, and remote-access nature of online tournaments.</h3>
                     <ul className="space-y-2">
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Nationwide participation without travel</span>
+                        <span>Nationwide participation – no travel needed, just skills.
+                        </span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Flexible scheduling across multiple days</span>
+                        <span>Flexible match slots – play across days, manage with ease.
+                        </span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Lower operational costs, higher prize pools</span>
+                        <span>Bigger prize pools, lower costs – more rewards, less hassle.
+                        </span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Professional streaming and casting</span>
+                        <span>Broadcast-ready matches – streamlined production with pro casters.
+                        </span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        <span>Challenges with connectivity and fair play</span>
+                        <span>Connectivity hurdles exist, but our fair-play tools keep things in check.</span>
                       </li>
                     </ul>
                     <div className="mt-4">
                       <h4 className="font-semibold mb-2">Our Online Events:</h4>
-                      <p>ONO Championship, Weekly Scrims, Friendly Matches, Inter-College League, Summer Showdown</p>
+                      <p>Victor Verse , Reyna's Reals.</p>
                     </div>
                   </div>
                 </div>

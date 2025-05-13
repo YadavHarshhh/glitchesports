@@ -31,7 +31,7 @@ export default function OurTeamPage() {
         <div className="container px-4">
           <Tabs defaultValue="core" className="w-full">
             <TabsList className="grid w-full grid-cols-1 md:grid-cols-3 mb-8">
-              <TabsTrigger value="core">Executive Core Committee</TabsTrigger>
+              <TabsTrigger value="core">Executive Committee</TabsTrigger>
               <TabsTrigger value="domains">Core Committee</TabsTrigger>
               <TabsTrigger value="gameheads">Faculty Coordinator</TabsTrigger>
             </TabsList>
@@ -83,7 +83,7 @@ export default function OurTeamPage() {
                 />
                 <TeamMemberCard
                   name="Abhinav Singh"
-                  role="Director of Production"
+                  role="Director of Productions"
                   imageSrc="/abhinav.jpeg?height=400&width=400"
                   instagram="https://instagram.com"
                   linkedin="https://www.linkedin.com/in/abhinav-singh-b27211340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -120,14 +120,14 @@ export default function OurTeamPage() {
                     />
                      <TeamMemberCard
                       name="Arpit Akhoury"
-                      role="Head of Production"
+                      role="Head of Productions"
                       imageSrc="/dante.jpeg?height=400&width=400"
                       instagram="https://www.instagram.com/dante_uwi?igsh=MTVuODFkZGdlNGVoMQ=="
                       linkedin="https://www.linkedin.com/in/arpit-akhoury-753884211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                     />
                      <TeamMemberCard
                       name="Divyansh Dinkar"
-                      role="Head of Production"
+                      role="Head of Productions"
                       imageSrc="/divyansh.jpeg?height=400&width=400"
                       instagram="https://www.instagram.com/d.ivdin?igsh=MWlyMDI3N3A3OWViMw%3D%3D&utm_source=qr"
                       linkedin="https://www.linkedin.com/in/divyansh-dinkar-4080ab351?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"

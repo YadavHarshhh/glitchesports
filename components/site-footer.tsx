@@ -82,7 +82,7 @@ export function SiteFooter() {
               <p>Jaipur, Rajasthan 303007</p>
               <p className="mt-4">
                 <a href="mailto:glitch.esports@muj.manipal.edu" className="hover:text-primary transition-colors">
-                  glitch.esports@muj.manipal.edu
+                  glitchesports@muj.manipal.edu
                 </a>
               </p>
             </address>
@@ -90,7 +90,7 @@ export function SiteFooter() {
         </div>
         <div className="mt-10 pt-6 border-t text-center">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Glitch! eSports Society. Made with ❤️ by Glitch! Web Team
+            &copy; {new Date().getFullYear()} Glitch! eSports Society. Made with ❤️ by Harsh.
           </p>
         </div>
       </div>

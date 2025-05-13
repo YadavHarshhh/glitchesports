@@ -14,7 +14,7 @@ export default function GalleryPage() {
       <section className="relative w-full h-[40vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=800&width=1920"
+            src="/gall.JPG?height=800&width=1920"
             alt="Glitch! Gallery"
             fill
             className="object-cover brightness-50"
@@ -82,11 +82,11 @@ function GalleryGrid({ filter }: GalleryGridProps) {
     "Oneiros x Glitch- Clutch – Where Skills Meet Thrills. Are You Game (1).jpg",
     "IMG-20250411-WA0043.jpg",
     "rezumeevents.jpg",
-    "IMG-20250411-WA0042.jpg",
+    "IMG_0980.jpg",
     "Oneiros x Glitch- Clutch – Where Skills Meet Thrills. Are You Game.jpg",
     "homemain.jpg",
     "lan1ot.jpeg",
-    "DSC08977.JPG",
+    "REZUME000.jpg",
     "DSC08982.JPG",
     "DSC09025.JPG",
     "DSC09063.JPG",

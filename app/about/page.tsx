@@ -16,7 +16,7 @@ export default function AboutPage() {
           <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background/90" />
         </div>
         <div className="container relative z-10 text-center px-4">
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-white">About Us</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-white">Uncover The Mission</h1>
           <p className="mt-4 max-w-[700px] mx-auto text-lg text-muted-foreground">
             Learn about our journey, mission, and the values that drive Glitch! eSports Society
           </p>
@@ -59,21 +59,41 @@ export default function AboutPage() {
                 <CardDescription>Founded</CardDescription>
               </CardHeader>
               <CardContent>
-                <p>Glitch! eSports Society was established with a small group of passionate gamers at MUJ.</p>
+                <p>Glitch! eSports Society was established with a small group of passionate gamers at MUJ, with the vision of empowering and cultivating a strong esports culture within the college. What began as a close-knit initiative has since laid the foundation for a thriving, competitive, and inclusive gaming community.</p>
               </CardContent>
             </Card>
             
             <Card>
               <CardHeader>
-                <CardTitle>Present</CardTitle>
-                <CardDescription>Expansion</CardDescription>
+                <CardTitle>LAN</CardTitle>
+                <CardDescription>Rezume Launched</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>
-                  Grew to 5000+ active members with multiple game divisions and established REZUME as our flagship event.
+                We reintroduced REZUME, our flagship event, designed to bring together the best collegiate esports talent through intense Valorant LAN and national outreach.
                 </p>
               </CardContent>
             </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>Inter College </CardTitle>
+                <CardDescription>Gamers Asylum</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>
+                Launched Gamers Asylum — our first-ever pan-India college esports tournament, inviting top teams across universities to compete and network at scale.</p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>Present</CardTitle>
+                <CardDescription>Community & Growth</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>
+                Now with 5000+ active members and multiple divisions, Glitch! is the beating heart of MUJ’s gaming culture — promoting competition, collaboration, and a future-ready gaming ecosystem.                </p>
+              </CardContent>
+              </Card>
           </div>
         </div>
       </section>

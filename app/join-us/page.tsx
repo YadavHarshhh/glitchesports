@@ -13,7 +13,7 @@ export default function JoinUsPage() {
       <section className="relative w-full h-[40vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=800&width=1920"
+            src="/gamedev1.jpg?height=800&width=1920"
             alt="Join Glitch!"
             fill
             className="object-cover brightness-50"
@@ -259,7 +259,7 @@ export default function JoinUsPage() {
           </div>
         </div>
       </section>
-
+       
       {/* Application Form */}
       <section className="w-full py-16">
         <div className="container px-4">
@@ -330,7 +330,7 @@ export default function JoinUsPage() {
                   </div>
 
                   <Button type="submit" className="w-full">
-                    Submit Application
+                    Application Starting Soon
                   </Button>
                 </form>
               </CardContent>

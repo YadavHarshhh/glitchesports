@@ -15,7 +15,7 @@ export default function ContactPage() {
       <section className="relative w-full h-[40vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=800&width=1920"
+            src="/OKTEST.JPG?height=800&width=1920"
             alt="Contact Glitch!"
             fill
             className="object-cover brightness-50"
@@ -169,7 +169,7 @@ export default function ContactPage() {
       <section className="w-full py-8">
         <div className="container px-4">
           <div className="relative w-full h-[400px] rounded-lg overflow-hidden">
-            <Image src="/placeholder.svg?height=800&width=1920&text=Map" alt="Map" fill className="object-cover" />
+            <Image src="/REZUME000.jpg?height=800&width=1920&text=Map" alt="Map" fill className="object-cover" />
           </div>
         </div>
       </section>
