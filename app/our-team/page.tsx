@@ -149,9 +149,9 @@ export default function OurTeamPage() {
                      <TeamMemberCard
                       name="Atharva Yewale"
                       role="Head of Promotions"
-                      imageSrc="/placeholder.svg?height=400&width=400"
-                      instagram="https://instagram.com"
-                      linkedin="https://linkedin.com"
+                      imageSrc="/atharva.jpeg?height=400&width=400"
+                      instagram="https://www.instagram.com/_atharvuu_?igsh=ZXYwbmRyZXl4NWpl"
+                      linkedin="https://www.linkedin.com/in/atharva-yewale-01a97433a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                     />
                      <TeamMemberCard
                       name="Tejas Sinha"
