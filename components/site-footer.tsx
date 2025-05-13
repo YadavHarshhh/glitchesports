@@ -32,11 +32,11 @@ export function SiteFooter() {
                   Events
                 </Link>
               </li>
-              <li>
+              {/*<li>
                 <Link href="/teams" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   Teams
                 </Link>
-              </li>
+              </li>*/}
               <li>
                 <Link href="/gallery" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   Gallery
@@ -47,16 +47,16 @@ export function SiteFooter() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
-              <li>
+              {/*<li>
                 <Link href="/blog" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   Blog
                 </Link>
-              </li>
-              <li>
+              </li>*/}
+              {/*<li>
                 <Link href="/sponsors" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   Sponsors
                 </Link>
-              </li>
+              </li>*/}
               <li>
                 <Link href="/our-team" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   Our Team
