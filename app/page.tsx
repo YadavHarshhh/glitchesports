@@ -22,9 +22,11 @@ export default function HomePage() {
         </div>
         <div className="container relative z-10 flex flex-col items-center text-center space-y-6 px-4">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white">
-            <span className="text-primary">Powering Campus eSports</span>
+            
             <br />
             Glitch! eSports Society
+            <br />
+            <span className="text-primary">Powering Campus eSports</span>
           </h1>
           <p className="max-w-[700px] text-lg md:text-xl text-muted-foreground">
             The premier gaming community at Manipal University Jaipur, fostering competitive gaming, skill development,
