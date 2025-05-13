@@ -86,34 +86,27 @@ export default function HomePage() {
                 <EventCard
                   title="REZUME 4.0"
                   date="APRIL 2025"
-                  description="Our flagship tournament featuring multiple games with over 500+ participants."
-                  imageSrc="/placeholder.svg?height=400&width=600"
+                  description="Our flagship tournament featuring multiple games with over 500+ participants and 3000+ footfall."
+                  imageSrc="/rezume.jpeg?height=400&width=600"
                 />
               </div>
               <div className="snap-center flex-shrink-0 w-[85vw]">
                 <EventCard
                   title="CLUTCH"
-                  date="TBF"
-                  description="Online nationwide tournament with cash prizes and professional casting."
+                  date="FEBRUARY 2025"
+                  description="Part of annual cultural fest of MANIPAL UNIVERSITY JAIPUR, ONEIROS, LAN of the biggest esports titles."
                   imageSrc="/clutchmainpage.jpg?height=400&width=600"
                 />
               </div>
               <div className="snap-center flex-shrink-0 w-[85vw]">
                 <EventCard
                   title="PIT STATION"
-                  date="TBF"
-                  description="Inter-college LAN event featuring intense CSGO and Valorant matches."
+                  date="SEPTEMBER 2024"
+                  description="Exclusive FIFA & F1 LAN on consoles."
                   imageSrc="/pitstn.jpg?height=400&width=600"
                 />
               </div>
-              <div className="snap-center flex-shrink-0 w-[85vw]">
-                <EventCard
-                  title="GameFest"
-                  date="September 2022"
-                  description="Celebration of gaming culture with tournaments, cosplay, and industry panels."
-                  imageSrc="/placeholder.svg?height=400&width=600"
-                />
-              </div>
+             
             </div>
             <div className="flex justify-center mt-4 space-x-2">
               <div className="w-2 h-2 rounded-full bg-primary"></div>
