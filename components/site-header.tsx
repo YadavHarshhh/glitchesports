@@ -62,7 +62,7 @@ export function SiteHeader() {
           </Sheet>
           <Link href="/" className="flex items-center space-x-2">
             <span className="font-bold text-xl hidden sm:inline-block">Glitch!</span>
-            <span className="font-bold text-xl sm:hidden">G!</span>
+            <span className="font-bold text-xl sm:hidden">Glitch!</span>
             <span className="sr-only">Glitch! eSports Society</span>
           </Link>
         </div>
