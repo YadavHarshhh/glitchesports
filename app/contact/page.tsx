@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -7,10 +9,72 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { SocialLinks } from "@/components/social-links"
 import { Mail, MapPin, Phone } from "lucide-react"
+import { useState } from "react"
+import { toast, Toaster } from "sonner"
 
 export default function ContactPage() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: ""
+  })
+  const [isLoading, setIsLoading] = useState(false)
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setIsLoading(true)
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      })
+
+      if (!response.ok) {
+        throw new Error("Failed to send message")
+      }
+
+      toast.success("Message sent successfully! We'll get back to you soon.", {
+        duration: 5000,
+        position: "top-center",
+        style: {
+          background: "#10B981",
+          color: "white",
+          border: "none",
+        },
+      })
+      setFormData({ name: "", email: "", subject: "", message: "" })
+    } catch (error) {
+      toast.error("Failed to send message. Please try again.", {
+        duration: 5000,
+        position: "top-center",
+        style: {
+          background: "#EF4444",
+          color: "white",
+          border: "none",
+        },
+      })
+    } finally {
+      setIsLoading(false)
+    }
+  }
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target
+    setFormData(prev => ({ ...prev, [name]: value }))
+  }
+
+  const handleSelectChange = (value: string) => {
+    setFormData(prev => ({ ...prev, subject: value }))
+  }
+
   return (
     <div className="flex flex-col">
+      <Toaster richColors closeButton />
       {/* Hero Section */}
       <section className="relative w-full h-[40vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -43,21 +107,36 @@ export default function ContactPage() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <form className="space-y-6">
+                <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="space-y-2">
                       <Label htmlFor="name">Full Name</Label>
-                      <Input id="name" placeholder="John Doe" />
+                      <Input 
+                        id="name" 
+                        name="name"
+                        placeholder="John Doe" 
+                        value={formData.name}
+                        onChange={handleChange}
+                        required
+                      />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="email">Email</Label>
-                      <Input id="email" type="email" placeholder="john.doe@example.com" />
+                      <Input 
+                        id="email" 
+                        name="email"
+                        type="email" 
+                        placeholder="john.doe@example.com" 
+                        value={formData.email}
+                        onChange={handleChange}
+                        required
+                      />
                     </div>
                   </div>
 
                   <div className="space-y-2">
                     <Label htmlFor="subject">Subject</Label>
-                    <Select>
+                    <Select onValueChange={handleSelectChange} value={formData.subject}>
                       <SelectTrigger id="subject">
                         <SelectValue placeholder="Select subject" />
                       </SelectTrigger>
@@ -73,11 +152,19 @@ export default function ContactPage() {
 
                   <div className="space-y-2">
                     <Label htmlFor="message">Message</Label>
-                    <Textarea id="message" placeholder="Your message here..." rows={5} />
+                    <Textarea 
+                      id="message" 
+                      name="message"
+                      placeholder="Your message here..." 
+                      rows={5} 
+                      value={formData.message}
+                      onChange={handleChange}
+                      required
+                    />
                   </div>
 
-                  <Button type="submit" className="w-full">
-                    Send Message
+                  <Button type="submit" className="w-full" disabled={isLoading}>
+                    {isLoading ? "Sending..." : "Send Message"}
                   </Button>
                 </form>
               </CardContent>
